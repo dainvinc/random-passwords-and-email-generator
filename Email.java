@@ -11,11 +11,12 @@ public class Email {
 	private String password;
 	private int capacity;
 	private String altEmail;
+	Email Email;
 
-	public EmailApplication(String fName, String lName) {
-		this.fName = fName;
-		this.lName = lName;
-	}
+	// public Email(String fName, String lName) {
+	// 	this.fName = fName;
+	// 	this.lName = lName;
+	// }
 	
 	public void setDepartment(String depName) {
 		this.depName = depName;
@@ -43,6 +44,10 @@ public class Email {
 	
 	public int getMailboxCapacity() {
 		return capacity;
+	}
+	
+	public Email getEmail() {
+		return Email;
 	}
 	
 	public String generateEmail() {

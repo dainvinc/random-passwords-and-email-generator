@@ -1,5 +1,3 @@
-package com.sumsquares;
-
 public class SumOfSquares {
 	private int sum = 0;
 	private int squaresSum = 0;
